@@ -1,11 +1,11 @@
 // 1. Two Sum (Easy)
-// https://leetcode.com/problems/two-sum/
+// https://leetcode.com/problems/two-sum
 
 /**
  * Result
  * Runtime: 56 ms (81.60%)
  * Memory: 52.37 MB (5.43%)
- */ 
+ */
 
 /**
  * @param {number[]} nums: 숫자 배열
