@@ -6,7 +6,7 @@ function solution(left, right) {
 
   for (let num = left; num <= right; num++) {
     const sqrtNum = Math.sqrt(num);
-    if (sqrtNum === Math.floor(sqrtNum)) result -= num;
+    if (Number.isInteger(sqrtNum)) result -= num;
     else result += num;
   }
 
